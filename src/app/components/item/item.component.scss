@@ -1,0 +1,90 @@
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+.row:hover{
+    border-radius: 3px;
+    background: rgb(51, 51, 51);
+}
+
+.completed{
+    color: rgb(141, 141, 141);
+    text-decoration: line-through;
+
+    .total{
+       color: rgb(141, 141, 141); 
+    }
+}
+
+
+
+div{
+    color: rgb(255, 195, 232);
+   padding: 0.3125rem 0;
+   
+
+    .title{
+        display: flex;
+        width: 50%;
+        
+        padding: 0 0.3125rem;
+    }
+
+    .price{
+        width: 13%;
+        padding: 0 0.3125rem;
+    }
+
+    .quantity{
+        width: 17%;
+        padding: 0 0.3125rem;
+    }
+
+    .total{
+        width: 15%;
+        font-weight: bolder;
+        color: rgb(135, 216, 135);
+        padding: 0 0.3125rem;
+    }
+
+    .actions{
+        width: 10%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 0.3125rem;
+    }
+
+    .actions button{
+        border: none;
+        font-size: 12px;
+        background-color: rgb(140, 125, 180);
+        color: rgb(226, 226, 226);
+        padding: 0.3125rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .actions button:hover{
+        background-color: rgb(39, 25, 49);
+    }
+    
+    @media screen and (max-width: 30rem){
+    
+        .title{
+            min-width: 30%;
+        }
+        .price,  .total{
+            min-width: 15%;
+            font-size: 0.75rem;
+        }
+        .quantity{
+            min-width: 5%;
+            font-size: 0.75rem;
+        }
+    
+        .actions{
+            width: 20%;
+            font-size: 0.625rem;
+        }
+    }
+}
+

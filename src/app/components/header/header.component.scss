@@ -1,0 +1,24 @@
+div{
+   color: aliceblue;
+}
+menu{
+    background: rgb(216, 147, 229);
+    padding: 0;
+    margin: 0;
+
+    ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li a{
+            display: block;
+            color: rgb(41, 41, 41);
+            text-decoration: none;
+            padding: 0.625rem 0.9375rem;
+        }
+    }
+
+
+}

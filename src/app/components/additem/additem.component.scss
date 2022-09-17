@@ -1,0 +1,37 @@
+form{
+    text-align: center;
+   
+    color: rgb(179, 250, 238);
+    div{
+    
+        color: rgb(157, 199, 192);
+       padding: 0.3125rem 0;
+
+       label{
+        padding: 0.3125rem 1.3125rem;
+        
+       }
+       input{
+        padding: 0.2rem 0;
+       }
+    }
+}
+
+form{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+form div{
+    padding: 5px 0;
+}
+
+form label{
+    display: block;
+    padding: 10px 0;
+}
+form input[type=text]{
+    width: 100%;
+    padding: 5px;
+}
+
